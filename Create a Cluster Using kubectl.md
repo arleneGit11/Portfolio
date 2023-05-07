@@ -118,7 +118,7 @@ ssh cloud_user@<PUBLIC_IP_ADDRESS>
 
 ### Test the Worker Node Has Been Added
 
- 1. Once the join is complete, back on the `kcontrol` server, verify that the node has joined the cluster:
+ 1. Once the join is complete, back on the `kcontrol` server, verify that the Node has joined the cluster:
 
     ```
     kubectl get nodes
