@@ -30,7 +30,7 @@ ssh cloud_user@<PUBLIC_IP_ADDRESS>
 
  1. Once the `SERVER-READY` file is present on both servers, continue on to the next objective.
 
-    >**Note:** It can take some time for the `SERVER-READY` file to appear. You made need to wait a few moments and list the files a few times before the file displays and you can move on.
+    >**Note:** It can take some time for the `SERVER-READY` file to appear. You may need to wait a few moments and list the files a few times before the file displays and you can move on.
 
 
 ### Initialize the Cluster and Set Up Your User
