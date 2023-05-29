@@ -111,7 +111,7 @@ Use the Remote Desktop client (available from Microsoft for Windows clients nati
    New-AzStorageAccount -ResourceGroupName <INSERT_RESOURCE_GROUP_NAME> -Name <GLOBALLY_UNIQUE_STORAGE_ACCOUNT_NAME> -Location <DEFAULT_REGION> -SkuName Standard_LRS
    ```
 
- > **Note:** To retrieve the name of the resource group, navigate back to the Azure portal, click on the resource name in the breadcrumb trail, and copy the name in the top-left corner above **Resource group**.
+ > **Note**: To retrieve the name of the resource group, navigate back to the Azure portal, click on the resource name in the breadcrumb trail, and copy the name in the top-left corner above **Resource group**.
 
 4. Navigate back to the Azure portal and click on the **Refresh** icon in the toolbar; it can take between 30-60 seconds for deployments to appear in the Azure portal after deploying from the command line.
 
