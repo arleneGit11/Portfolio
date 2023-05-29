@@ -109,7 +109,7 @@ ssh cloud_user@<PUBLIC_IP_ADDRESS>
 
 1. Type `sudo`, paste in the `kubeadm join kcontrol:6443 --token <STRING>` command, and add a space after it. 
 
-1. Then, navigate back to the `kcontrol` server and copy rest of the command (i.e., `--discovery-token-ca-cert-hash <STRING>` ). Paste this in as well; the complete command should look like this:
+1. Then, navigate back to the `kcontrol` server and copy the rest of the command (i.e., `--discovery-token-ca-cert-hash <STRING>` ). Paste this in as well; the complete command should look like this:
    ```
    sudo kubeadm join kcontrol:6443 --token <STRING> --discovery-token-ca-cert-hash <STRING>
    ```
@@ -126,7 +126,7 @@ ssh cloud_user@<PUBLIC_IP_ADDRESS>
 
     You should see that the `knode1` server has been added to the cluster. 
     
-    >Note: If its status is `NotReady`, wait a few moments, run the command again, and confirm that it's status has updated to `Ready`.
+    >**Note:** If its status is `NotReady`, wait a few moments, run the command again, and confirm that the status has updated to `Ready`.
 
 ## Conclusion
  
